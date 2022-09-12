@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './style'
-import {Navbar,Stats,Hero,Bussiness,Billing,CardDeal,Testimonials,Clients,CTA,Footer} from './components';
+import {Navbar,Stats,Hero,Bussiness,Billing,CardDeal,Testimonials,Clients,CTA,Footer, Roadmap} from './components';
 
 
 const App = () => {
@@ -29,6 +29,9 @@ const App = () => {
         <Testimonials/>
         <Clients/>
         <CTA/>
+
+        <Roadmap/>
+
         <Footer/>
       </div>
     </div>

@@ -12,6 +12,8 @@ import GetStarted from './GetStarted';
 import Stats from './Stats';
 import Testimonials from './Testimonials'
 
+import Roadmap from './Roadmap';
+
 export {
     Navbar,
     Hero,
@@ -25,5 +27,7 @@ export {
     Footer,
     GetStarted,
     Stats,
-    Testimonials
+    Testimonials,
+    
+    Roadmap
 }
