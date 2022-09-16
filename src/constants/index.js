@@ -1,10 +1,6 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { me,azzzl,dr,money,art,community, twitter, airbnb, binance, coinbase, dropbox, discord  } from "../assets";
 
 export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
   {
     id: "features",
     title: "Features",
@@ -19,27 +15,42 @@ export const navLinks = [
   },
 ];
 
+export const sms = [
+  {
+    href: "https://staking.depravedscientists.online",
+    title: "Stake",
+  },
+  {
+    href: "https://raffles.depravedscientists.online",
+    title: "Raffles",
+  },
+  {
+    href: "#",
+    title: "Mutate",
+  },
+];
+
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: community,
+    title: "Community",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Our vibrant comminity is gonna be the driving force of our project. Our decisions will be made by the community.",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: money,
+    title: "Utility",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We have designed a financial ecosystem which is going to reward and provide benefits to holders",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: art,
+    title: "Art",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "The artwork of our project is 100% original and it will progressively adjust according to our project's intentions.",
   },
 ];
 
@@ -47,26 +58,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+      "having a tiny dick is like having no dick at all",
+    name: "eunuch",
+    title: "satan stan",
+    img: me,
   },
   {
     id: "feedback-2",
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "Dr Marcus",
+    title: "Community Manager",
+    img: dr,
   },
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+      "Something more about this shit 66666666666666666",
+    name: "Azzazel",
+    title: "Artist",
+    img: azzzl,
   },
 ];
 
@@ -80,11 +91,6 @@ export const stats = [
     id: "stats-2",
     title: "Trusted by Company",
     value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
   },
 ];
 
@@ -155,25 +161,25 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
+  // {
+  //   id: "social-media-1",
+  //   icon: instagram,
+  //   link: "https://www.instagram.com/",
+  // },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: "social-media-3",
     icon: twitter,
-    link: "https://www.twitter.com/",
+    link: "https://twitter.com/Depravedscient",
   },
   {
     id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
+    icon: "https://assets-global.website-files.com/6257adef93867e50d84d30e2/62595384f934b806f37f4956_145dc557845548a36a82337912ca3ac5.svg",
+    link: "https://discord.gg/9M4EGKTn7w",
   },
 ];
 

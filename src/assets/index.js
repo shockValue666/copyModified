@@ -23,6 +23,16 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import newLogo from './output-onlinepngtools.png'
+import closeButton from './close-button-svgrepo-com.svg'
+import fuckedSociety from './Transparent PNG.png'
+import money from './moeny.svg'
+import art from './art.svg'
+import community from './community.svg'
+import azzzl from './dr.png'
+import dr from './dr1.png'
+import me from './me.png'
+import discord from './discord.svg'
 
 export {
   airbnb,
@@ -50,4 +60,14 @@ export {
   people01,
   people02,
   people03,
+  newLogo,
+  closeButton,
+  fuckedSociety,
+  money,
+  art,
+  community,
+  azzzl,
+  dr,
+  me,
+  discord
 };

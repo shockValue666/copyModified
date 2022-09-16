@@ -11,6 +11,7 @@ import Footer from './Footer';
 import GetStarted from './GetStarted';
 import Stats from './Stats';
 import Testimonials from './Testimonials'
+import MintButton from './MintButton';
 
 import Roadmap from './Roadmap';
 
@@ -28,6 +29,6 @@ export {
     GetStarted,
     Stats,
     Testimonials,
-    
+    MintButton,
     Roadmap
 }
