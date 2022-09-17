@@ -3,15 +3,15 @@ import { me,azzzl,dr,money,art,community, twitter, airbnb, binance, coinbase, dr
 export const navLinks = [
   {
     id: "features",
-    title: "Features",
+    title: "Vision",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "roadmap",
+    title: "Roadmap",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Team",
   },
 ];
 

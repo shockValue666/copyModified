@@ -3,7 +3,7 @@ import styles,{layout} from '../style';
 
 function Roadmap() {
   return (
-    <div className='mt-[40px]'>
+    <div className='mt-[40px]' id="roadmap">
         <section id="features" className={layout.section}>
             <div className={layout.sectionInfo}>
                 <h2 className={styles.heading2}>Roadmap<br className='sm:block hidden' /></h2>
