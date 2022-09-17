@@ -28,8 +28,9 @@ const Navbar = () => {
           <img src={menu} alt="men" />
         </button>
       </div>
-          <div className={`${deskToggle ? 'sidebar':'sidebar-close'} fixed p-6 bg-newer right-0 top-[-40px] z-[100000] mx-4 my-2 min-h-[600px] min-w-[440px] rounded-xl sidebar mt-10`} ref={refOne}>
+          <div className={`${deskToggle ? 'sidebar':'sidebar-close'}  xxs:min-w-[90%]  fixed p-6 bg-newer right-0 top-[-40px] z-[100000] mx-4 my-2 min-h-[600px] xs:min-w-[440px] rounded-xl sidebar mt-10`} ref={refOne}>
               {/* <nav className='w-full flex py-6 justify-between items-center border-2 border-indigo-500'> */}
+              {/* xxs:min-w-[90%] */}
               <nav className='w-full flex py-6 justify-between items-center'>
                 <div className='w-full flex py-6 justify-between items-center navbar justify-between'>
                   <button className="bg-white" onClick={()=>setDeskToggle((prev)=>!prev)}>
