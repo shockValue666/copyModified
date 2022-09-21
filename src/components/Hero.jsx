@@ -20,11 +20,15 @@ const Hero = () => {
           Sponsoring experiments against humanity
         </h3>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          minting soon 
+          minting now 
         </p>
         <div className='ss:flex hidden md:mr-4  mt-5 '>
             {/* <MintButton /> */}
-            <button type="button" className={`${styles.mintButton}`}>CLICK </button>
+            <button type="button" className={`${styles.mintButton}`}>
+              <a href="https://632b55f938f73a0d3ddf7982--subtle-snickerdoodle-0efc2f.netlify.app/" target="_blank">
+                mint here
+              </a>
+            </button>
           </div>
 
       </div>
