@@ -12,11 +12,13 @@ import GetStarted from './GetStarted';
 import Stats from './Stats';
 import Testimonials from './Testimonials'
 import MintButton from './MintButton';
+import NewHero from './NewHero'
 
 import Roadmap from './Roadmap';
 
 export {
     Navbar,
+    NewHero,
     Hero,
     Billing,
     Bussiness,

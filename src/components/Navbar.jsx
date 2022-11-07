@@ -73,8 +73,9 @@ const Navbar = () => {
                 <ul className='list-none flex flex-col  justify-end items-center flex-1 '>
                   {sms.map((nav,index)=>(
                     <li key={nav.href} className={`font-poppins font-normal cursor-pointer ${index===navLinks.length - 1 ? `mb-0` :`mb-4` } text-white text-[18px]  `}>
-                      <a href={`${nav.href}`} target="_blank">
-                        {nav.title}
+                      {/* <a href={`${nav.href}`} target="_blank"> */}
+                      <a href={`#`} target="">
+                        {nav.title} <p className='text-[10px]	'>(coming soon)</p>
                       </a>
                     </li>
                   ))}
